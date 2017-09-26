@@ -5,3 +5,10 @@ C:\Users\wolflint\Documents\Repos\AverageTutorial\AverageTutorial\obj\Debug\Aver
 C:\Users\wolflint\Documents\Repos\AverageTutorial\AverageTutorial\obj\Debug\AverageTutorial.csproj.CoreCompileInputs.cache
 C:\Users\wolflint\Documents\Repos\AverageTutorial\AverageTutorial\obj\Debug\AverageTutorial.exe
 C:\Users\wolflint\Documents\Repos\AverageTutorial\AverageTutorial\obj\Debug\AverageTutorial.pdb
+C:\Users\wolflint\Documents\Repos\ProgrammingConceptsTutorials\AverageTutorial\AverageTutorial\bin\Debug\AverageTutorial.exe.config
+C:\Users\wolflint\Documents\Repos\ProgrammingConceptsTutorials\AverageTutorial\AverageTutorial\bin\Debug\AverageTutorial.exe
+C:\Users\wolflint\Documents\Repos\ProgrammingConceptsTutorials\AverageTutorial\AverageTutorial\bin\Debug\AverageTutorial.pdb
+C:\Users\wolflint\Documents\Repos\ProgrammingConceptsTutorials\AverageTutorial\AverageTutorial\obj\Debug\AverageTutorial.csprojResolveAssemblyReference.cache
+C:\Users\wolflint\Documents\Repos\ProgrammingConceptsTutorials\AverageTutorial\AverageTutorial\obj\Debug\AverageTutorial.csproj.CoreCompileInputs.cache
+C:\Users\wolflint\Documents\Repos\ProgrammingConceptsTutorials\AverageTutorial\AverageTutorial\obj\Debug\AverageTutorial.exe
+C:\Users\wolflint\Documents\Repos\ProgrammingConceptsTutorials\AverageTutorial\AverageTutorial\obj\Debug\AverageTutorial.pdb
