@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -36,12 +36,21 @@ namespace WeightLoss
             double swimWeight = swimCal / poundPerCalories;
             double totalWeight = cycleWeight + runWeight + swimWeight;
 
+            TimeSpan ts = TimeSpan.FromMinutes(cycleTime);
+            string w = new DateTime(ts.Ticks).ToString("hh:mm");
+            TimeSpan ts1 = TimeSpan.FromMinutes(swimTime);
+            string a = new DateTime(ts1.Ticks).ToString("hh:mm");
+            TimeSpan ts2 = TimeSpan.FromMinutes(runningTime);
+            string s = new DateTime(ts2.Ticks).ToString("hh:mm");
+            TimeSpan ts3 = TimeSpan.FromMinutes(totalTime);
+            string d = new DateTime(ts3.Ticks).ToString("hh:mm");
+
             //Table with results
-            Console.WriteLine("\n{0, -20}{1, 20}{2, 20}{3, 20}\n ", "Activity", "Time Spent", "Calories Burnt", "Pounds Lost");
-            Console.WriteLine("{0, -20}{1, 20}{2, 20}{3, 20}", "Cycling", TimeSpan.FromMinutes(cycleTime), cycleCal.ToString("F") + " kcal", cycleWeight.ToString("F") + " lb");
-            Console.WriteLine("{0, -20}{1, 20}{2, 20}{3, 20}", "Running", TimeSpan.FromMinutes(runningTime), runCal.ToString("F") + " kcal", runWeight.ToString("F") + " lb");
-            Console.WriteLine("{0, -20}{1, 20}{2, 20}{3, 20}\n", "Swimming", TimeSpan.FromMinutes(swimTime), swimCal.ToString("F") + " kcal", swimWeight.ToString("F") + " lb");
-            Console.WriteLine("{0, -20}{1, 20}{2, 20}{3, 20}\n", "Total", TimeSpan.FromMinutes(totalTime), totalCal.ToString("F") + " kcal", totalWeight.ToString("F") + " lb");
+            Console.WriteLine("\n{0, 20}{1, 20}{2, 20}{3, 20}\n ", "Activity", "Time Spent", "Calories Burnt", "Pounds Lost");
+            Console.WriteLine("{0, 20}{1, 20}{2, 20}{3, 20}", "Cycling", w, Math.Round(cycleCal, 2), Math.Round(cycleWeight, 2));
+            Console.WriteLine("{0, 20}{1, 20}{2, 20}{3, 20}", "Running", a, Math.Round(runCal, 2), Math.Round(runWeight, 2));
+            Console.WriteLine("{0, 20}{1, 20}{2, 20}{3, 20}\n", "Swimming", s, Math.Round(swimCal, 2), Math.Round(swimWeight, 2));
+            Console.WriteLine("{0, 20}{1, 20}{2, 20}{3, 20}\n", "Total", d, Math.Round(totalCal, 2), Math.Round(totalWeight, 2));
             Console.ReadLine();
         }
     }
