@@ -112,8 +112,8 @@ namespace Cuboid
                 {
                     Environment.Exit(0);
                 }
-
             }
+
 
             //Catch statement is used when an error occurs
             catch
@@ -134,6 +134,16 @@ namespace Cuboid
             double ave = ((double)num1 + (double)num2 + (double)num3) / 3;
             Console.WriteLine("The average of {0}, {1} and {2} is {3}", num1, num2, num3, Math.Round(ave, 2));
             Console.ReadLine();
+            Console.Write("\nWould you like to restart the Cuboid programme? y/n: ");
+            string exitPrompt = Console.ReadLine();
+            if (exitPrompt == "y")
+            {
+                Main();
+            }
+            else if (exitPrompt == "n")
+            {
+                Environment.Exit(0);
+            }
         }
     }
 
