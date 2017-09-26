@@ -37,11 +37,11 @@ namespace WeightLoss
             double totalWeight = cycleWeight + runWeight + swimWeight;
 
             //Table with results
-            Console.WriteLine("\n{0, 20}{1, 20}{2, 20}{3, 20}\n ", "Activity", "Time Spent", "Calories Burnt", "Pounds Lost");
-            Console.WriteLine("{0, 20}{1, 20}{2, 20}{3, 20}", "Cycling", TimeSpan.FromMinutes(cycleTime), Math.Round(cycleCal, 2) + " kcal", Math.Round(cycleWeight, 2) +" lb");
-            Console.WriteLine("{0, 20}{1, 20}{2, 20}{3, 20}", "Running", TimeSpan.FromMinutes(runningTime), Math.Round(runCal, 2) + " kcal", Math.Round(runWeight, 2) + " lb");
-            Console.WriteLine("{0, 20}{1, 20}{2, 20}{3, 20}\n", "Swimming", TimeSpan.FromMinutes(swimTime), Math.Round(swimCal, 2) + " kcal", Math.Round(swimWeight, 2) + " lb");
-            Console.WriteLine("{0, 20}{1, 20}{2, 20}{3, 20}\n", "Total", TimeSpan.FromMinutes(totalTime), Math.Round(totalCal, 2) + " kcal", Math.Round(totalWeight, 2) + " lb");
+            Console.WriteLine("\n{0, -20}{1, 20}{2, 20}{3, 20}\n ", "Activity", "Time Spent", "Calories Burnt", "Pounds Lost");
+            Console.WriteLine("{0, -20}{1, 20}{2, 20}{3, 20}", "Cycling", TimeSpan.FromMinutes(cycleTime), cycleCal.ToString("F") + " kcal", cycleWeight.ToString("F") + " lb");
+            Console.WriteLine("{0, -20}{1, 20}{2, 20}{3, 20}", "Running", TimeSpan.FromMinutes(runningTime), runCal.ToString("F") + " kcal", runWeight.ToString("F") + " lb");
+            Console.WriteLine("{0, -20}{1, 20}{2, 20}{3, 20}\n", "Swimming", TimeSpan.FromMinutes(swimTime), swimCal.ToString("F") + " kcal", swimWeight.ToString("F") + " lb");
+            Console.WriteLine("{0, -20}{1, 20}{2, 20}{3, 20}\n", "Total", TimeSpan.FromMinutes(totalTime), totalCal.ToString("F") + " kcal", totalWeight.ToString("F") + " lb");
             Console.ReadLine();
         }
     }
