@@ -131,8 +131,8 @@ namespace Cuboid
             int num1 = int.Parse(Console.ReadLine());
             int num2 = int.Parse(Console.ReadLine());
             int num3 = int.Parse(Console.ReadLine());
-            double ave = num1 + num2 + num3 / 3;
-            Console.WriteLine(" The average of { 0}, { 1} and { 2} is { 3}", num1, num2, num3, ave);
+            double ave = ((double)num1 + (double)num2 + (double)num3) / 3;
+            Console.WriteLine("The average of {0}, {1} and {2} is {3}", num1, num2, num3, Math.Round(ave, 2));
             Console.ReadLine();
         }
     }

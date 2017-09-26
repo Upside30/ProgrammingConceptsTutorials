@@ -11,3 +11,10 @@ C:\Users\wolflint\Downloads\Cuboid\Cuboid\obj\Debug\Cuboid.csprojResolveAssembly
 C:\Users\wolflint\Downloads\Cuboid\Cuboid\obj\Debug\Cuboid.csproj.CoreCompileInputs.cache
 C:\Users\wolflint\Downloads\Cuboid\Cuboid\obj\Debug\Cuboid.exe
 C:\Users\wolflint\Downloads\Cuboid\Cuboid\obj\Debug\Cuboid.pdb
+C:\Users\wolflint\Documents\Repos\ProgrammingConceptsTutorials\Cuboid\Cuboid\bin\Debug\Cuboid.exe.config
+C:\Users\wolflint\Documents\Repos\ProgrammingConceptsTutorials\Cuboid\Cuboid\bin\Debug\Cuboid.exe
+C:\Users\wolflint\Documents\Repos\ProgrammingConceptsTutorials\Cuboid\Cuboid\bin\Debug\Cuboid.pdb
+C:\Users\wolflint\Documents\Repos\ProgrammingConceptsTutorials\Cuboid\Cuboid\obj\Debug\Cuboid.csprojResolveAssemblyReference.cache
+C:\Users\wolflint\Documents\Repos\ProgrammingConceptsTutorials\Cuboid\Cuboid\obj\Debug\Cuboid.csproj.CoreCompileInputs.cache
+C:\Users\wolflint\Documents\Repos\ProgrammingConceptsTutorials\Cuboid\Cuboid\obj\Debug\Cuboid.exe
+C:\Users\wolflint\Documents\Repos\ProgrammingConceptsTutorials\Cuboid\Cuboid\obj\Debug\Cuboid.pdb
