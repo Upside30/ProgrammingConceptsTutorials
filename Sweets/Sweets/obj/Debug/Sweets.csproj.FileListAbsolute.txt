@@ -1,0 +1,7 @@
+C:\Users\wolflint\Documents\Repos\ProgrammingConceptsTutorials\Sweets\Sweets\bin\Debug\Sweets.exe.config
+C:\Users\wolflint\Documents\Repos\ProgrammingConceptsTutorials\Sweets\Sweets\bin\Debug\Sweets.exe
+C:\Users\wolflint\Documents\Repos\ProgrammingConceptsTutorials\Sweets\Sweets\bin\Debug\Sweets.pdb
+C:\Users\wolflint\Documents\Repos\ProgrammingConceptsTutorials\Sweets\Sweets\obj\Debug\Sweets.csprojResolveAssemblyReference.cache
+C:\Users\wolflint\Documents\Repos\ProgrammingConceptsTutorials\Sweets\Sweets\obj\Debug\Sweets.csproj.CoreCompileInputs.cache
+C:\Users\wolflint\Documents\Repos\ProgrammingConceptsTutorials\Sweets\Sweets\obj\Debug\Sweets.exe
+C:\Users\wolflint\Documents\Repos\ProgrammingConceptsTutorials\Sweets\Sweets\obj\Debug\Sweets.pdb
